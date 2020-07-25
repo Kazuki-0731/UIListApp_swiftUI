@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UIListApp.xcodeproj">
+      location = "self:/Users/susu/workspace/ios/UIListApp_swiftUI/UIListApp_swiftUI.xcodeproj">
    </FileRef>
 </Workspace>

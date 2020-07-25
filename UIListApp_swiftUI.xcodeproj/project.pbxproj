@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2F8A02824CAF119000EA7EF /* UIListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F8A02824CAF119000EA7EF /* UIListApp_swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIListApp_swiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F8A02B24CAF119000EA7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F8A02E24CAF119000EA7EF /* UIListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIListApp.xcdatamodel; sourceTree = "<group>"; };
 		D2F8A03024CAF119000EA7EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		D2F8A03924CAF11A000EA7EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2F8A03C24CAF11A000EA7EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2F8A03E24CAF11A000EA7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2F8A04324CAF11A000EA7EF /* UIListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F8A04324CAF11A000EA7EF /* UIListApp_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIListApp_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F8A04724CAF11A000EA7EF /* UIListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIListAppTests.swift; sourceTree = "<group>"; };
 		D2F8A04924CAF11A000EA7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2F8A04E24CAF11A000EA7EF /* UIListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F8A04E24CAF11A000EA7EF /* UIListApp_swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIListApp_swiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F8A05224CAF11A000EA7EF /* UIListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIListAppUITests.swift; sourceTree = "<group>"; };
 		D2F8A05424CAF11A000EA7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F8A06124CB05CA000EA7EF /* MizuhoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MizuhoImage.swift; sourceTree = "<group>"; };
@@ -100,9 +100,9 @@
 		D2F8A02924CAF119000EA7EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2F8A02824CAF119000EA7EF /* UIListApp.app */,
-				D2F8A04324CAF11A000EA7EF /* UIListAppTests.xctest */,
-				D2F8A04E24CAF11A000EA7EF /* UIListAppUITests.xctest */,
+				D2F8A02824CAF119000EA7EF /* UIListApp_swiftUI.app */,
+				D2F8A04324CAF11A000EA7EF /* UIListApp_swiftUITests.xctest */,
+				D2F8A04E24CAF11A000EA7EF /* UIListApp_swiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2F8A02724CAF119000EA7EF /* UIListApp */ = {
+		D2F8A02724CAF119000EA7EF /* UIListApp_swiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F8A05724CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp" */;
+			buildConfigurationList = D2F8A05724CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp_swiftUI" */;
 			buildPhases = (
 				D2F8A02424CAF119000EA7EF /* Sources */,
 				D2F8A02524CAF119000EA7EF /* Frameworks */,
@@ -214,14 +214,14 @@
 			);
 			dependencies = (
 			);
-			name = UIListApp;
+			name = UIListApp_swiftUI;
 			productName = UIListApp;
-			productReference = D2F8A02824CAF119000EA7EF /* UIListApp.app */;
+			productReference = D2F8A02824CAF119000EA7EF /* UIListApp_swiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2F8A04224CAF11A000EA7EF /* UIListAppTests */ = {
+		D2F8A04224CAF11A000EA7EF /* UIListApp_swiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F8A05A24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListAppTests" */;
+			buildConfigurationList = D2F8A05A24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp_swiftUITests" */;
 			buildPhases = (
 				D2F8A03F24CAF11A000EA7EF /* Sources */,
 				D2F8A04024CAF11A000EA7EF /* Frameworks */,
@@ -232,14 +232,14 @@
 			dependencies = (
 				D2F8A04524CAF11A000EA7EF /* PBXTargetDependency */,
 			);
-			name = UIListAppTests;
+			name = UIListApp_swiftUITests;
 			productName = UIListAppTests;
-			productReference = D2F8A04324CAF11A000EA7EF /* UIListAppTests.xctest */;
+			productReference = D2F8A04324CAF11A000EA7EF /* UIListApp_swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2F8A04D24CAF11A000EA7EF /* UIListAppUITests */ = {
+		D2F8A04D24CAF11A000EA7EF /* UIListApp_swiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F8A05D24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListAppUITests" */;
+			buildConfigurationList = D2F8A05D24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp_swiftUIUITests" */;
 			buildPhases = (
 				D2F8A04A24CAF11A000EA7EF /* Sources */,
 				D2F8A04B24CAF11A000EA7EF /* Frameworks */,
@@ -250,9 +250,9 @@
 			dependencies = (
 				D2F8A05024CAF11A000EA7EF /* PBXTargetDependency */,
 			);
-			name = UIListAppUITests;
+			name = UIListApp_swiftUIUITests;
 			productName = UIListAppUITests;
-			productReference = D2F8A04E24CAF11A000EA7EF /* UIListAppUITests.xctest */;
+			productReference = D2F8A04E24CAF11A000EA7EF /* UIListApp_swiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +278,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2F8A02324CAF119000EA7EF /* Build configuration list for PBXProject "UIListApp" */;
+			buildConfigurationList = D2F8A02324CAF119000EA7EF /* Build configuration list for PBXProject "UIListApp_swiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -291,9 +291,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2F8A02724CAF119000EA7EF /* UIListApp */,
-				D2F8A04224CAF11A000EA7EF /* UIListAppTests */,
-				D2F8A04D24CAF11A000EA7EF /* UIListAppUITests */,
+				D2F8A02724CAF119000EA7EF /* UIListApp_swiftUI */,
+				D2F8A04224CAF11A000EA7EF /* UIListApp_swiftUITests */,
+				D2F8A04D24CAF11A000EA7EF /* UIListApp_swiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -362,12 +362,12 @@
 /* Begin PBXTargetDependency section */
 		D2F8A04524CAF11A000EA7EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2F8A02724CAF119000EA7EF /* UIListApp */;
+			target = D2F8A02724CAF119000EA7EF /* UIListApp_swiftUI */;
 			targetProxy = D2F8A04424CAF11A000EA7EF /* PBXContainerItemProxy */;
 		};
 		D2F8A05024CAF11A000EA7EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2F8A02724CAF119000EA7EF /* UIListApp */;
+			target = D2F8A02724CAF119000EA7EF /* UIListApp_swiftUI */;
 			targetProxy = D2F8A04F24CAF11A000EA7EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,8 +511,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = susu.com.UIListApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "susu.com.UIListApp-swiftUI";
+				PRODUCT_NAME = UIListApp_swiftUI;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -531,8 +531,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = susu.com.UIListApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "susu.com.UIListApp-swiftUI";
+				PRODUCT_NAME = UIListApp_swiftUI;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -556,7 +556,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIListApp.app/UIListApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIListApp_swiftUI.app/UIListApp_swiftUI";
 			};
 			name = Debug;
 		};
@@ -578,7 +578,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIListApp.app/UIListApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIListApp_swiftUI.app/UIListApp_swiftUI";
 			};
 			name = Release;
 		};
@@ -625,7 +625,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2F8A02324CAF119000EA7EF /* Build configuration list for PBXProject "UIListApp" */ = {
+		D2F8A02324CAF119000EA7EF /* Build configuration list for PBXProject "UIListApp_swiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F8A05524CAF11A000EA7EF /* Debug */,
@@ -634,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F8A05724CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp" */ = {
+		D2F8A05724CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp_swiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F8A05824CAF11A000EA7EF /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F8A05A24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListAppTests" */ = {
+		D2F8A05A24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp_swiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F8A05B24CAF11A000EA7EF /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F8A05D24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListAppUITests" */ = {
+		D2F8A05D24CAF11A000EA7EF /* Build configuration list for PBXNativeTarget "UIListApp_swiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2F8A05E24CAF11A000EA7EF /* Debug */,
